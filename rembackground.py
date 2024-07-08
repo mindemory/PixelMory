@@ -7,6 +7,7 @@ def main(fname):
     # file_name = 'Fig1.png'
     img = Image.open(fname)
     img_array = np.array(img)
+    print(img_array.shape)
 
     img_new_array = img_array.copy()
     # Add an empty column for alpha values
